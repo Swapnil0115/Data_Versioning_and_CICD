@@ -6,11 +6,14 @@ This project demonstrates a minimal setup for **data versioning using DVC** and 
 
 ## 🧩 Scenario
 
-You want to:
+This project addresses a common real-world need in data engineering and MLOps:
 
-- Version and track datasets used in data pipelines.
-- Simulate remote data access (e.g., from AWS or GCP buckets).
-- Validate that the dataset is accessible and well-formed before running your pipeline.
+- ✅ **Version and track datasets** used in data pipelines using DVC.
+- ☁️ **Simulate remote data access** from cloud storage providers like AWS S3 or GCP Cloud Storage.
+- 🛡️ **Validate dataset accessibility and structure** before running pipelines — helping to:
+  - Avoid unnecessary data pushes or downloads
+  - Prevent pipeline failures due to missing or malformed files
+  - Reduce cloud compute and storage costs
 
 ---
 
