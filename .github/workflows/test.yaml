@@ -22,7 +22,7 @@ jobs:
         run: dvc --version
 
       - name: Pull data
-        run: dvc pull --no-exec
+        run: dvc pull
         env:
           DVC_PASSWORD: ${{ secrets.DVC_PASSWORD }}
 
